@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="misty_rose">#F9E6EE</color>
+    <color name="misty_rose_subtle">#CCF9E6EE</color>
+    <color name="misty_rose_hint">#99F9E6EE</color>
+    <color name="cocoa_brown">#3E1C0F</color>
+    <color name="cocoa_brown_dark">#2A120A</color>
+    <color name="cocoa_brown_card">#3E1C0F</color>
+    <color name="black">#FF000000</color>
+</resources>

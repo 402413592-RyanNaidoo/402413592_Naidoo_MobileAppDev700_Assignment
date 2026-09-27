@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SmartPantryManager" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/misty_rose</item>
+        <item name="colorPrimaryVariant">@color/misty_rose</item>
+        <item name="colorOnPrimary">@color/cocoa_brown</item>
+        <item name="colorPrimaryDark">@color/cocoa_brown_dark</item>
+        <item name="colorAccent">@color/misty_rose</item>
+        <item name="android:windowBackground">@color/cocoa_brown</item>
+        <item name="android:textColor">@color/misty_rose</item>
+        <item name="android:textColorPrimary">@color/misty_rose</item>
+        <item name="android:textColorSecondary">#E6D0D9</item>
+        <item name="android:editTextColor">@color/misty_rose</item>
+        <item name="android:textColorHint">#B3A2A8</item>
+
+
+    </style>
+</resources>
