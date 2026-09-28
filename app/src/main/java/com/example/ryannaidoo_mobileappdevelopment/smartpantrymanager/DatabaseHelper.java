@@ -250,7 +250,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         insertRecipe(db, "Nachos", "1. Spread tortilla chips on a baking dish.\n2. Top with grated cheese and salsa.\n3. Bake until cheese melts.",
                 new Object[][]{{"Tortilla Chips", 150.0, "g"}, {"Cheese", 100.0, "g"}, {"Salsa", 50.0, "g"}});
 
-        insertRecipe(db, "Pancakes", "1. Mix flour, milk, and egg into a smooth batter.\n2. Melt butter on a hot pan and pour batter.\n3. Flip and cook both sides until golden.",
+        insertRecipe(db, "Pancakes", "1. Mix flour, milk and egg into a smooth batter.\n2. Melt butter on a hot pan and pour batter.\n3. Flip and cook both sides until golden.",
                 new Object[][]{{"Flour", 150.0, "g"}, {"Milk", 200.0, "ml"}, {"Egg", 1.0, null}, {"Butter", 15.0, "g"}});
 
         insertRecipe(db, "Grilled cheese", "1. Butter bread slices.\n2. Place cheese between slices, buttered sides out.\n3. Grill on a pan until golden and cheese melts.",
@@ -259,19 +259,19 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         insertRecipe(db, "Ham sandwich", "1. Butter bread slices.\n2. Layer ham slices between bread.",
                 new Object[][]{{"Bread", 2.0, null}, {"Ham", 50.0, "g"}, {"Butter", 10.0, "g"}});
 
-        insertRecipe(db, "Beef stew", "1. Brown diced beef in a pot.\n2. Add chopped potatoes, carrots, and onions with water.\n3. Simmer until tender.",
+        insertRecipe(db, "Beef stew", "1. Brown diced beef in a pot.\n2. Add chopped potatoes, carrots and onions with water.\n3. Simmer until tender.",
                 new Object[][]{{"Beef", 250.0, "g"}, {"Potato", 2.0, null}, {"Carrot", 1.0, null}, {"Onion", 1.0, null}});
 
         insertRecipe(db, "Garlic prawns", "1. Melt butter in a frying pan.\n2. Add garlic and prawns, cook for 4 minutes.\n3. Squeeze fresh lemon juice on top.",
                 new Object[][]{{"Prawns", 200.0, "g"}, {"Garlic", 2.0, null}, {"Butter", 20.0, "g"}, {"Lemon", 1.0, null}});
 
-        insertRecipe(db, "Slimy okra", "1. Wash and chop okra, onions, and tomatoes.\n2. Heat oil in a pan and saute onions and tomatoes.\n3. Add okra and cook until soft and viscous.",
+        insertRecipe(db, "Slimy okra", "1. Wash and chop okra, onions and tomatoes.\n2. Heat oil in a pan and saute onions and tomatoes.\n3. Add okra and cook until soft and viscous.",
                 new Object[][]{{"Okra", 200.0, "g"}, {"Onion", 1.0, null}, {"Tomato", 1.0, null}, {"Oil", 1.0, "tbsp"}});
 
         insertRecipe(db, "Curry", "1. Saute chopped onion and curry powder in oil.\n2. Add diced chicken and tomatoes.\n3. Simmer until sauce thickens.",
                 new Object[][]{{"Chicken", 200.0, "g"}, {"Curry Powder", 2.0, "tbsp"}, {"Onion", 1.0, null}, {"Tomato", 2.0, null}});
 
-        insertRecipe(db, "Mashed potatoes", "1. Peel and boil potatoes until tender.\n2. Drain water and add butter, milk, and salt.\n3. Mash until smooth.",
+        insertRecipe(db, "Mashed potatoes", "1. Peel and boil potatoes until tender.\n2. Drain water and add butter, milk and salt.\n3. Mash until smooth.",
                 new Object[][]{{"Potato", 4.0, null}, {"Butter", 30.0, "g"}, {"Milk", 50.0, "ml"}, {"Salt", 1.0, "tsp"}});
     }
 
