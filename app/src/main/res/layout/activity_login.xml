@@ -73,7 +73,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:srcx="@drawable/ic_lock"
+                android:src="@drawable/ic_lock"
                 app:tint="@color/misty_rose"
                 android:contentDescription="Password icon" />
             
@@ -114,7 +114,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:text="Dont have an account? Register here"
-            android:textcolor="@color/misty_rose"
+            android:textColor="@color/misty_rose"
             android:textSize="15sp"
             android:padding="8dp"
             android:clickable="true"
