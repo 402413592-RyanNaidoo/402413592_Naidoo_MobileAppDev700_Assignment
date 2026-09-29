@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cocoa_brown"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Pantry\nManager"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in to continue"
+            android:textSize="16sp"
+            android:textColor="@color/misty_rose"
+            android:layout_marginBottom="40dp" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_input_bg"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_email"
+                app:tint="@color/misty_rose"
+                android:contentDescription="Username icon" />
+
+            <EditText
+                android:id="@+id/edit_username"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:background="@android:color/transparent"
+                android:hint="Email / Username"
+                android:textColorHint="@color/misty_rose_hint"
+                android:text="@color/misty_rose"
+                android:textSize="16sp"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/rounded_input_bg"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp"
+            android:orientation="horizontal">
+            
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:srcx="@drawable/ic_lock"
+                app:tint="@color/misty_rose"
+                android:contentDescription="Password icon" />
+            
+            <EditText
+                android:id="@+id/edit_password"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:background="@android:color/transparent"
+                android:hint="Password"
+                android:textColorHint="@color/misty_rose_hint"
+                android:textColor="@color/misty_rose"
+                android:textSize="16sp"
+                android:inputType="textPassword" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_eye"
+                app:tint="@color/misty_rose"
+                android:contentDescription="Toggle password" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/rounded_button_filled"
+            android:textColor="@color/cocoa_brown"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Login" />
+
+        <TextView
+            android:id="@+id/text_register_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Dont have an account? Register here"
+            android:textcolor="@color/misty_rose"
+            android:textSize="15sp"
+            android:padding="8dp"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+</ScrollView>
