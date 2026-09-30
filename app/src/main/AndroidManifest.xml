@@ -23,7 +23,7 @@
             android:name=".smartpantrymanager.AddEditIngredientActivity"
             android:exported="false"
             android:windowSoftInputMode="stateVisible|adjustResize" />
-        <activity android:name=".smartpantrymanger.RecipeDetailActivity" android:exported="false" />
+        <activity android:name=".smartpantrymanager.RecipeDetailActivity" android:exported="false" />
         <activity android:name=".smartpantrymanager.LoginActivity" android:exported="false" />
         <activity android:name=".smartpantrymanager.RegisterActivity" android:exported="false" />
 
